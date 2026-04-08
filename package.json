@@ -13,7 +13,7 @@
 		"type-check": "npx tsc --noEmit"
 	},
 	"dependencies": {
-		"@resonatehq/gcp": "^0.1.5"
+		"@resonatehq/gcp": "file:../"
 	},
 	"devDependencies": {
 		"@google-cloud/functions-framework": "^4.0.0",
