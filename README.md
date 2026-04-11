@@ -171,7 +171,7 @@ export RESONATE_URL=$(gcloud run services describe resonate-server --region=us-c
 
 gcloud run services update resonate-server \
   --region=us-central1 \
-  --args="serve,--api-http-addr=:8080,--system-url=$RESONATE_URL"
+  --args="serve,--server-port=8080,--server-url=$RESONATE_URL"
 ```
 
 Print the Resonate Server URL
