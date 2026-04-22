@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Countdown on GCP — Resonate example" />
+</p>
+
 # Resonate Countdown on Google Cloud Functions
 
 A *Countdown* powered by the Resonate Typescript SDK and Google Cloud Functions. The countdown sends periodic notifications to [ntfy.sh](https://ntfy.sh/) at configurable intervals.
